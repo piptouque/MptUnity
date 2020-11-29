@@ -3,7 +3,7 @@
   "displayName": "MptUnity",
   "description": "Music handling with libopenmpt in Unity",
   "unity": "2019.3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
   },
   "author": {
