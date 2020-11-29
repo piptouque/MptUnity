@@ -2,9 +2,12 @@
   "name": "com.imac.mptunity",
   "displayName": "MptUnity",
   "description": "Music handling with libopenmpt in Unity",
-  "unity": "^2019.3",
-  "author": "piptouque",
+  "unity": "2019.3",
   "version": "1.0.0",
   "dependencies": {
+  },
+  "author": {
+    "name": "piptouque",
+    "url": "https://github.com/piptouque"
   }
 }
