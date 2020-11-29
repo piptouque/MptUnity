@@ -1,4 +1,4 @@
-﻿namespace Audio
+﻿namespace MptUnity.Audio
 {
     /// <summary>
     /// A struct for a note played by an Instrument.

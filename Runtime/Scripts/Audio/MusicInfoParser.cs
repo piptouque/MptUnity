@@ -2,7 +2,7 @@
 
 using FullSerializer;
 
-namespace Audio
+namespace MptUnity.Audio
 {
     /// <summary>
     /// A parser that is able to determine the MusicInfo

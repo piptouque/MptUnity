@@ -1,8 +1,8 @@
 ﻿
-namespace Utility
+namespace MptUnity.Utility
 {
     using T = System.Single;
-    internal static class ApproxFloat
+    static class ApproxFloat
     {
         const int c_ulpDefault = 2;
 

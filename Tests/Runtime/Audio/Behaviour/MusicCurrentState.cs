@@ -1,12 +1,12 @@
 ﻿
 
-using Audio;
+using MptUnity.Audio;
 using UnityEngine;
 using UnityEngine.Events;
 
-using Audio.Behaviour;
+using MptUnity.Audio.Behaviour;
 
-namespace Test.Audio.Behaviour
+namespace MptUnity.Test.Audio.Behaviour
 {
     public class OnSectionChangeEvent : UnityEvent<MusicSection, int> {}
     

@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine.Events;
 
-namespace Audio.Behaviour
+namespace MptUnity.Audio.Behaviour
 {
     
     public class PlaybackChangeEvent : UnityEvent<Audio.AudioPlaybackState> { }

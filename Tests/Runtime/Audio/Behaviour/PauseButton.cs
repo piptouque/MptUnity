@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-using Audio;
+using MptUnity.Audio;
 
-namespace Test.Audio.Behaviour
+namespace MptUnity.Test.Audio.Behaviour
 {
     public class PauseButton : MonoBehaviour
     {

@@ -3,7 +3,7 @@ using System.Collections;
 
 using UnityEngine.Events;
 
-namespace Audio.Behaviour
+namespace MptUnity.Audio.Behaviour
 {
     using AudioFile = UnityEngine.Object;
     

@@ -1,9 +1,9 @@
 ﻿using System;
-using Audio;
-using Audio.Behaviour;
+using MptUnity.Audio;
+using MptUnity.Audio.Behaviour;
 using UnityEngine;
 
-namespace Test.Audio.Behaviour
+namespace MptUnity.Test.Audio.Behaviour
 {
     [RequireComponent(typeof(TMPro.TMP_Text))]
     public class CommentText : MonoBehaviour

@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine.Events;
 
-namespace Audio.Behaviour
+namespace MptUnity.Audio.Behaviour
 {
     /// <summary>
     /// Event which gets called whenever the InstrumentSource starts playing a MusicalNote.

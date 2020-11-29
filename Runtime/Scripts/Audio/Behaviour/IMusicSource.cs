@@ -1,4 +1,4 @@
-﻿namespace Audio.Behaviour
+﻿namespace MptUnity.Audio.Behaviour
 {
     public interface IMusicSource
     {

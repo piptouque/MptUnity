@@ -1,4 +1,4 @@
-﻿namespace Audio
+﻿namespace MptUnity.Audio
 {
     /// <summary>
     /// An interface for a the instrument the musician is playing.

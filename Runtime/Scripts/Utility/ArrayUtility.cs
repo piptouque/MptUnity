@@ -1,7 +1,7 @@
 ﻿
 using System.Linq;
 
-namespace Utility
+namespace MptUnity.Utility
 {
     static class ArrayUtility
     {

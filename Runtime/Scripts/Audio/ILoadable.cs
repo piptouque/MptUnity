@@ -1,4 +1,4 @@
-﻿namespace Audio
+﻿namespace MptUnity.Audio
 {
     public interface ILoadable
     {

@@ -1,4 +1,4 @@
-﻿namespace Audio
+﻿namespace MptUnity.Audio
 {
     /// <summary>
     /// Parts are neither MOD Channels nor instruments.

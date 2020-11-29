@@ -1,6 +1,6 @@
-﻿using Utility;
+﻿using MptUnity.Utility;
 
-namespace Audio
+namespace MptUnity.Audio
 {
     public class OpenMptInstrument : IInstrument
     {

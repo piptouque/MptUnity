@@ -5,12 +5,12 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Events;
 
-using Utility;
+using MptUnity.Utility;
 
-using Audio.Behaviour;
-using MusicalNote = Audio.MusicalNote;
+using MptUnity.Audio.Behaviour;
+using MusicalNote = MptUnity.Audio.MusicalNote;
 
-namespace IO.Behaviour
+namespace MptUnity.IO.Behaviour
 {
     /// <summary>
     /// Event which gets called whenever the FlutePlayer starts playing a MusicalNote.
@@ -38,7 +38,7 @@ namespace IO.Behaviour
         public KeyCode[] keys;
         public int[] tones;
 
-        [RangeAttribute(0L, 1L)] 
+        [Range(0L, 1L)] 
         public double volume;
         
         #endregion

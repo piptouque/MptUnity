@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace Test.Audio.Behaviour
+namespace MptUnity.Test.Audio.Behaviour
 {
     [RequireComponent(typeof(TMPro.TMP_Text))]
     public class BpmText : MonoBehaviour

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Test.IO.Behaviour
+namespace MptUnity.Test.IO.Behaviour
 {
     public class CameraMovement : MonoBehaviour
     {

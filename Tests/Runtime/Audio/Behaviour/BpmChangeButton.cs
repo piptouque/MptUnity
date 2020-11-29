@@ -1,7 +1,7 @@
-﻿using Audio.Behaviour;
+﻿using MptUnity.Audio.Behaviour;
 using UnityEngine;
 
-namespace Test.Audio.Behaviour
+namespace MptUnity.Test.Audio.Behaviour
 {
     public class BpmChangeButton : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 ﻿
 #define FORCE_MONO
 
-namespace Audio.Behaviour
+namespace MptUnity.Audio.Behaviour
 {
     [UnityEngine.RequireComponent(typeof(UnityEngine.AudioSource))]
     public class OpenMptInstrumentSource : AbstractInstrumentSource
