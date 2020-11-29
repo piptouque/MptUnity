@@ -3,9 +3,10 @@
     
     public enum AudioPlaybackState
     {
+        // Keep eStopped at 0 so that it is the default state.
+        eStopped = 0,
         ePlaying,
         ePaused,
-        eStopped
     }
     
     public interface IPlayable

@@ -50,6 +50,7 @@ namespace MptUnity.Audio.Behaviour
             m_source.clip = null;
             // must loop over the buffer, since it is refilled at each step.
             m_source.loop = true;
+            m_source.Stop();
 
             m_sampleRate = MusicConfig.GetSampleRate();
         }
@@ -298,6 +299,7 @@ namespace MptUnity.Audio.Behaviour
                 GetCurrentMusic().Reset();
             }
             
+            // Remember playback state.
             // So that GetCurrentMusic gets us the new music.
             m_currentMusicIndex = musicIndex;
 
@@ -306,9 +308,11 @@ namespace MptUnity.Audio.Behaviour
             {
                 GetCurrentMusic().SetRepeatCount(-1);
             }
+            
 
             // an Invoke a day keeps the bugs away!!
             m_events.musicSwitchEvent.Invoke(GetCurrentMusic());
+            
         }
 
         public int GetLoadedNumber()
