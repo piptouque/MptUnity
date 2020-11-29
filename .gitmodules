@@ -1,0 +1,3 @@
+[submodule "Runtime/ThirdParty/MptSharp"]
+	path = Runtime/ThirdParty/MptSharp
+	url = https://github.com/piptouque/test_mptsharp
