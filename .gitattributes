@@ -47,7 +47,7 @@
 *.mp3                binary filter=lfs diff=lfs merge=lfs
 *.ogg                binary filter=lfs diff=lfs merge=lfs
 *.wav                binary filter=lfs diff=lfs merge=lfs
-*.flac                binary filter=lfs diff=lfs merge=lfs
+*.flac               binary filter=lfs diff=lfs merge=lfs
 # Tracker modules
 *.mptm               binary filter=lfs diff=lfs merge=lfs
 *.xm                 binary filter=lfs diff=lfs merge=lfs
